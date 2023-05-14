@@ -1,7 +1,9 @@
 
 
 const dummynums = [10, 20, 30, 40, 50, 60, 70, 80, 90];
-const target = 57;
+
+const dummyArray = [25, 29, 45, 55, 65, 75, 85 , 105, 305];
+
 
 const binarySearch = (nums, target) => {
     let start = 0;
@@ -29,4 +31,4 @@ const binarySearch = (nums, target) => {
     return;
 }
 
-binarySearch(dummynums, 27);
+binarySearch(dummyArray, 28);
