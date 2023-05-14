@@ -27,3 +27,7 @@ const binarySearch = (arr, target) => {
 }
 
 binarySearch(dummyArray, 110) ;
+
+// dummyArray.sort((a,b) => b - a) ;
+
+// console.log(dummyArray) ; 
