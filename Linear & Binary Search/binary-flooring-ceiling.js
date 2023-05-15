@@ -1,6 +1,7 @@
 
 
 const dummyArray = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120];
+const dummyArray2 = [18, 28, 39, 47, 55, 64];
 
 const binarySearch = (arr, target) => {
     let start = 0;
@@ -28,4 +29,4 @@ const binarySearch = (arr, target) => {
     return;
 }
 
-binarySearch(dummyArray, 27);
+binarySearch(dummyArray2, 37);

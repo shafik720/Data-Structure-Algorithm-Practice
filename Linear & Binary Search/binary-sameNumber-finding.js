@@ -45,4 +45,4 @@ const binarySearch = (nums, target) => {
     return console.log('No mid Found');
 }
 
-binarySearch(dummyArray, 9); 
+binarySearch(dummyArray, 8); 
